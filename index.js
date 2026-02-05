@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 10000;
 
 let activeBots = []; 
-const addUIDs = ["61584063961170", "61573940335470"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
+const addUIDs = ["61573940335470", "61573940335470"]; // 👈 apne UID yaha daalo jo GC me add karwane hai
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
